@@ -1,3 +1,39 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Zad3;
+public class Program
+{
+    public static void Main(String[] args)
+    {
+        
+        
+        
+        
+    }
+}
 
-Console.WriteLine("Hello, World!");
+
+
+
+
+
+public abstract class Kontener
+{
+    protected double Waga;
+    protected double Wysokosc;
+    protected double Glebokosc;
+    protected Kontener(double waga, double wysokosc, double glebokosc)
+    {
+        Waga = waga;
+        Wysokosc = wysokosc;
+        Glebokosc = glebokosc;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
